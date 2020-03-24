@@ -1,0 +1,87 @@
+.container{
+	width: 100%;
+	height: 560px;
+}
+.tete{
+  width: 100%;
+  height: 50px;
+  background-color: blue;
+  text-align: center;
+  color:white;
+}
+
+
+.valider{
+    background-color: blue;
+    color: rgb(255,255,255);
+}
+input{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+}
+.result{
+	width: 100%;
+	height: 300px;
+	background-color: blue;
+}
+.inf{
+	width: 49.5%;
+	height: 290px;
+	background-color: white;
+	float: left;
+	margin-top: 10px;
+}
+.inf1{
+	width: 99%;
+	height: 25px;
+	background-color: blue;
+	margin-top: -10px;
+	color: white;
+
+}
+.inf2{
+	width: 49.5%;
+	height: 260px;
+	background-color: white;
+}
+.sup{
+	width: 49.5%;
+	height: 290px;
+	background-color: white;
+	float: right;
+	margin-top: 10px;
+}
+.sup1{
+	width: 99%;
+	height: 25px;
+	background-color: blue;
+	float: right;
+	margin-top: -10px;
+	color: white;
+}
+.sup2{
+	width: 49.5%;
+	height: 260px;
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+------------------------------------------------Compte rendu de l'exercice 4---------------------------------------------
+
+Pour resoudre l'"xercice 4, nous avons procedé par une documentation en premier lieu ( openclassroom).
+Ensuite, nous avons utilisé quelques fonctions prédefinies en php pour en creer d'autres.
+Fonctions predefinies utilisées:
+
+preg_match() : La fonction PHP preg_match() va nous permettre de rechercher des motifs bien précis au sein d'une chaîne de caractères.
+exemple : preg_match (motif de chaîne , chaîne sujet , tableau résultat);
+
+preg_match_all (): preg_match_all renvoie dans un tableau toutes les occurrences du motif trouvé dans la chaîne sujet. Un ordre peut être envoyé par le paramètre optionnel. Après avoir trouvé un premier résultat, la recherche continue jusqu'à la fin de la chaîne.
+exemple : preg_match_all (motif de chaîne, chaîne sujet, tableau résultat, paramètre optionnel);
+
+preg_replace() : preg_replace remplace le motif de chaîne par le nouveau motif et retourne la chaîne modifiée. Si int limite est posé, le nombre de remplacements sera limité.
+exemple : preg_replace (motif de chaîne, nouveau motif, chaîne sujet, int limite);
+
+implode() : Elle permet de concaténer les éléments d’un tableau en une chaîne de caractères avec le séparateur $separateur.
+exemple : implode ( $separateur , $tableau );
+
+trim() : La fonction trim supprime les caractères blancs de début et de fin de ligne.
+exemple :trim($string);
+
+ucfirst() : La fonction ucfirst permet de mettre le premier caractère d'une chaîne en majuscule.
+
+Fonctions mise en place: voir (EXERCICE4)
+Rec_p() : Cette fonction permet de recuperer les phrases d'un texte dans tableau en mettant le premier element de la phrase en majuscule.
+corr_espace() : Cette fonction permet de d'enlever les espaces inutiles, les espaces avant (;), les espaces avant (,), les espaces avant et apres (') ...
+
+pour afficher les resultat dans un textarea en lecture seul, nous avons utilisé l'attribut  readonly.
+
+
+
+
+
+
+
+
